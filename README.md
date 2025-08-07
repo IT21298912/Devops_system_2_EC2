@@ -65,6 +65,4 @@ Follow these steps to set up the deployment pipeline for your Node.js REST API o
 
 Contributions to improve this CI/CD setup or add additional features are welcome! Feel free to submit pull requests or open issues.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
