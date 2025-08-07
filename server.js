@@ -20,15 +20,15 @@ app.use("/api/users", userRoutes);
 
 app.use("/api/products", (req, res) => {
   return res.status(200).json({
-    message: "This is new feature change, a new route for products samin",
+    message: "This is new feature change, a new route for products Nisall",
   });
 });
 
-app.get("/api/testci", (req, res) => {
-  return res.status(200).json({
-    message: "This is new feature change, a new route for test nisal",
-  });
-});
+// app.get("/api/testci", (req, res) => {
+//   return res.status(200).json({
+//     message: "This is new feature change, a new route for test nisal",
+//   });
+// });
 //error handler
 app.use(errorHandler);
 
