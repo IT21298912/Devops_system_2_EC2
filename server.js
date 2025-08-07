@@ -24,7 +24,7 @@ app.use("/api/products", (req, res) => {
   });
 });
 
-app.use("/api/testci", (req, res) => {
+app.get("/api/testci", (req, res) => {
   return res.status(200).json({
     message: "This is new feature change, a new route for test nisal",
   });
