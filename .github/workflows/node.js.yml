@@ -39,7 +39,7 @@ jobs:
           pm2 restart BackendAPI
         else
           echo "Starting new BackendAPI process..."
-          pm2 start app.js --name BackendAPI
+          pm2 start server.js --name BackendAPI
         fi
 
     - name: Save PM2 process list
