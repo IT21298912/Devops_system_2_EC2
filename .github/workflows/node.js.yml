@@ -27,7 +27,7 @@ jobs:
         touch .env
         echo "${{ secrets.MONGO_DB_URL }}" > .env
 
-    - name: Restart or Start PM2 App
+    - name: Restart or Start PM2 App (server.js)
       run: |
         pm2 delete apiServer || true
         pm2 start server.js --name apiServer
